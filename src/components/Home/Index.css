@@ -1,0 +1,311 @@
+.header-section {
+    width: 100%;
+    background: #3636cc;
+}
+
+.header-title {
+    font-size: 54px;
+    padding: 30px 0;
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.9;
+    width: 100%;
+    text-align: center;
+}
+.login-form-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px 0;
+    justify-content: space-around;
+}
+
+.login-bg {
+    width: 50%;
+    max-width: 501px;
+    display: flex;
+}
+
+.login-profile-img {
+    width: 100%;
+    max-width: 105px;
+    height: auto;
+    margin: 25px auto;
+    display: block;
+    border: 3px solid #3636cc;
+    border-radius: 50%;
+    align-self: center;
+}
+.login-loading .loading-spinner{
+    margin: auto;
+    color: #3636cc;
+    display: block;
+}
+.login-loading span{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    color: #3636cc;
+} 
+.login-form {
+    width: 50%;
+    max-width: 350px;
+}
+
+.login-bg img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.login-err {
+    padding: 5px;
+    color: red;
+    text-align: center;
+}
+
+.forgot-pwd {
+    margin: 25px 0;
+}
+.password-input,
+.email-input {
+    margin-bottom: 20px;
+}
+.forgot-pwd .MuiLink-root {
+color: #3636cc;
+}
+.cc-submit-btn,
+.changepwd-submit-btn,
+.submit-btn {
+    margin-top: 25px;
+}
+.cc-submit-btn button{
+width: 70%;
+}
+.cc-submit-btn button,
+.submit-btn button {
+    margin: auto;
+    display: block;
+    background-color: #3636cc;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.submit-btn button {
+    width: 40%;
+}
+.cc-submit-btn button:hover,
+.submit-btn button:hover {
+    color: #3636cc;
+    background-color: #FFFFFF;
+}
+
+.email-input .MuiTextField-root,
+.password-input .MuiTextField-root {
+     width: 100%;
+}
+
+.login-content {
+    width: 100%;
+    background: #3636cc;
+}
+.login-content p {
+    font-size: 18px;
+    padding: 30px;
+    margin: 30px auto;
+    color: #FFFFFF;
+    line-height: 1.7;
+    width: 70%;
+    text-align: center;
+    word-spacing: 0.5px;
+}
+
+ /* features */
+ .features-container{
+    width: 80%;
+    margin: 30px auto;
+ }
+ .features-header h1{
+    font-weight: 600;
+    color: #3636cc;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+}
+ .features-section {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.feature-card {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+.feature-card:hover {
+    box-shadow: #aaaaaa 0px 5px 15px;
+}
+.card-image {
+    padding: 20px 0;
+}
+.feature-card-content {
+    min-height: 100px;
+}
+.feature-card-content .card-header {
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+.feature-card-content .card-content {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #737373;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* footer */
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 15px 0;
+    width: 25%;
+}
+.footer-title {
+    font-size: 22px;
+    margin: 20px 0px 0px;
+    color: #3636cc;
+    font-weight: 600;
+}
+.footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-list li,
+.devices  {
+    padding: 5px 0;
+    line-height: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+    background: transparent !important;
+    border-radius: 25px !important;
+    border-color: #3636cc !important;
+}
+.footer-connections button {
+    color: #3636cc;
+    margin: 10px 10px;
+}
+.footer-list li .footer-icon{
+    fill: #3636cc;   
+}
+.footer-list li:hover{
+    color: #3636cc;
+}
+.footer-icons {
+    display: flex;
+    padding: 20px 0;
+    gap: 14px;
+    justify-content: center;
+}
+
+
+.changepwd-form {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 12px 20px rgb(0 0 0 / 30%);
+    width: 50%;
+    margin: auto;
+    max-width: 700px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    padding: 30px 40px 40px;
+    transform: translate(-50%, -50%);
+}
+.changepwd-form .failed{
+    color: #d32f2f;
+}
+
+.changepwd-header {
+    font-weight: 600;
+    color: #3636cc;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+    line-height: 1.5;
+}
+.changepwd-header button{
+    float: right;
+}
+.changepwd-msg{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    color: #666;
+    margin-top: 0;
+    line-height: 1.5;
+    margin-bottom: 20px;
+} 
+.pwd-notes {
+    text-align: initial;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    color: #666;
+    margin-top: 25px;
+} 
+.pwd-notes ul{
+    padding: 0 16px;
+}
+.pwd-notes ul li{
+    margin: 8px 0;
+}
+.changepwd-submit-btn button {
+    margin: auto;
+    display: block;
+    background-color: #3636cc;
+    width: 40%;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 1px solid #3636cc;
+}
+.changepwd-submit-btn button:hover {
+    background-color: #FFFFFF;
+    color: #3636cc;
+    border: 1px solid #3636cc;
+    box-shadow: 0px 12px 20px rgb(0 0 0 / 30%);
+}
+/* responsive */
+
+@media only screen and (max-width: 767px) {
+    .login-form-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .changepwd-submit-btn button,
+    .submit-btn button {
+        width: 100%;
+    }
+    .changepwd-form{
+        top: 70%;
+        width: 70%;
+    }
+}

@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+html, body {
+  height: 100%;
+}

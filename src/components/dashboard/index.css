@@ -1,0 +1,52 @@
+.header-container {
+    background: #3636cc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.user-name {
+    font-size: 18px;
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 0.9;
+}
+.user-name span {
+    display: block;
+    padding: 12px 0;
+    font-size: 12px;
+}
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+.user-actions .Check-btn,
+.user-actions .logout-btn {
+    margin: auto;
+    display: block;
+    background-color: #FFFFFF;
+    color: #3636cc;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 1px solid #3636cc;
+}
+.user-actions .Check-btn:hover,
+.user-actions .logout-btn:hover {
+    box-shadow: 0px 12px 20px rgb(0 0 0 / 30%);
+    background-color: #FFFFFF;
+    color: #3636cc;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .header-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

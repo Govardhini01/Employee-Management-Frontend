@@ -1,0 +1,35 @@
+.emp-container {
+    padding: 30px 30px;
+}
+.EmpList-header  h2{
+    text-align: center;
+    margin: 0;
+    font-size: 28px;
+    color: #FF6600;
+}
+.EmpList-header {
+    padding: 10px 20px;
+    margin: 10px 0 30px;
+}
+
+.table-header .table-header-row{
+    background: #4e4ec11c;
+}
+
+.table-header .table-header-row th{
+    font-weight: 600;
+    font-size: 16px;
+}
+.emp-table-body .emp-table-row:hover {
+    background: aliceblue;
+    cursor: pointer;
+}
+td .MuiButton-text.Deactivate {
+    background: #d32f2f; 
+    color: #FFFFFF;
+    
+}
+td .MuiButton-text.Activate {
+    color: #FFFFFF;
+    background: #2e7d32;
+}

@@ -1,0 +1,77 @@
+.profile-header {
+    padding: 10px 20px;
+}
+
+.profile-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #979391;
+}
+
+.profile-header h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #FF6600;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.project-info,
+.personal-info {
+    margin: 20px 0;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    padding-bottom: 30px;
+}
+
+.project-info p,
+.personal-info p {
+    font-size: 20px;
+    background: #4e4ec11c;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0;
+}
+.project-info table,
+.personal-info table {
+    width: 70%;
+}
+.personal-info table td:last-child {
+    padding: 8px 10px;
+    width: 50%;
+}
+
+.project-info table td{
+    padding: 8px 10px;
+}
+.personal-info table td:first-child {
+    padding: 8px 10px;
+    width: 30%;
+}
+
+.project-info table tr,
+.personal-info table tr {
+        align-items: baseline;
+    padding: 5px 0;
+}
+
+/* responsive */
+@media only screen and (max-width: 767px) {
+
+    .project-info table tr,
+    .personal-info table tr {
+        word-break: break-word;
+        display: flex;
+        flex-direction: column;
+    }
+    .personal-info table td:first-child {
+        width: 100%;
+    }
+    .personal-info table td:last-child {
+        width: 100%;
+    }
+}

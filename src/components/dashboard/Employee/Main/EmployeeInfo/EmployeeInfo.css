@@ -1,0 +1,77 @@
+.timesheet-container {
+    padding: 0 30px;
+}
+
+.timeSheet-header h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 28px;
+    color: #FF6600;
+}
+
+.timeSheet-header {
+    padding: 10px 20px;
+    margin: 10px 0 30px;
+}
+
+.table-header .table-header-row {
+    background: #4e4ec11c;
+}
+
+.table-filters {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.month-filter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.month-filter label {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.month-filter .MuiInputBase-root {
+    min-width: 200px;
+}
+
+.month-filter .clear-btn {
+    margin: 20px 0 0;
+    background-color: #3636cc;
+    color: #FFFFFF;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 1px solid #3636cc;
+}
+
+.month-filter .clear-btn:hover {
+    background-color: #FFFFFF;
+    color: #3636cc;
+    border: 1px solid #3636cc;
+}
+
+.table-header .table-header-row th {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.emp-table-body .emp-table-row:hover {
+    background: aliceblue;
+    cursor: pointer;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 767px) {
+    .table-filters {
+        display: flex;
+        flex-direction: column;
+    }
+}

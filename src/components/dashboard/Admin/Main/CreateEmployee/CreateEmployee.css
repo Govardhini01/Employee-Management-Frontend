@@ -1,0 +1,69 @@
+.createEmp-bg img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.create-header{
+    text-align: center;
+    color: #3636cc;
+}
+.createEmp-bg {
+    width: 50%;
+}
+.form-header{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    color: #666;
+    margin-top: 0;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.create-emp-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+}
+.create-emp-form {
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    max-width: 500px;
+     padding: 30px 40px 40px;
+}
+.err-msg {
+    padding: 5px;
+    color: red;
+    text-align: center;
+}
+.login-loading .loading-spinner{
+    margin: auto;
+    color: #3636cc;
+    display: block;
+}
+.login-loading span{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    color: #3636cc;
+} 
+/* responsive */
+@media only screen and (max-width: 767px) {
+    .create-emp-container {
+        flex-direction: column-reverse;
+    }
+    .createEmp-bg{
+        margin: 30px auto;
+    }
+    .create-emp-form {
+        margin: 0 auto;
+        width: 80%;
+        padding: 0;
+    }
+}

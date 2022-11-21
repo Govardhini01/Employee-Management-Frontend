@@ -1,0 +1,25 @@
+.side-nav-container {
+    min-height: 90vh;
+    height: 100%;
+    border-right: 1px solid #c9c1c199;
+}
+.side-nav-container .menu-list{
+    padding-top: 0;
+}
+.menu-list{
+    height: 100%;
+    padding: 0;
+}
+.menu-list .selected-menu {
+    border-right: 3px solid #3636cc;
+}
+.menu-list .selected-menu .list-item-icon {
+    color: #3636cc;
+}
+
+/* responsive */
+@media only screen and (max-width: 767px) {
+    .menu-list .list-item-title {
+        display: none;
+    }
+}
